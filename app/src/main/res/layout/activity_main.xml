@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Management System"
+        android:textStyle="bold|italic"
+        android:textSize="26sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="@drawable/btnbgcolor"/>
+
+    <EditText
+        android:id="@+id/textId"
+        android:layout_below="@+id/label"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:hint="ID: "/>
+
+    <EditText
+        android:id="@+id/textName"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textId"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Name: "/>
+
+    <EditText
+        android:id="@+id/textSurname"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textName"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Surname: "/>
+
+    <EditText
+        android:id="@+id/textMarks"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:layout_below="@id/textSurname"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="Marks: "/>
+
+    <Button
+        android:id="@+id/btnInsertData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMarks"
+        android:text="Create"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btnbgcolor" />
+
+    <Button
+        android:id="@+id/btnReadData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMarks"
+        android:text="Read"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btnInsertData"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btnbgcolor" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMarks"
+        android:text="Update"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btnReadData"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btnbgcolor" />
+
+    <Button
+        android:id="@+id/btnDeleteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnReadData"
+        android:text="Delete"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btnbgcolor" />
+
+</RelativeLayout>
