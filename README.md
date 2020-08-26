@@ -10,7 +10,7 @@ This is Simple student management system build in java and sqlite android applic
 </p>
 
 <p float="left">
- <img src="https://github.com/deepakjaiswal2018/Student-Management-System-CRUD-App/blob/master/demo/Preview4.jpg" width="260" height="450" />
+ <img src="https://github.com/deepakjaiswal2018/Student-Management-System-CRUD-App/blob/master/demo/preview4.jpg" width="260" height="450" />
 <img src="https://github.com/deepakjaiswal2018/Student-Management-System-CRUD-App/blob/master/demo/preview5.jpg" width="260" height="450" />
 <img src="https://github.com/deepakjaiswal2018/Student-Management-System-CRUD-App/blob/master/demo/preview6.jpg" width="260" height="450" />
 </p>
